@@ -1,3 +1,4 @@
+![Alt text](/Aloha-Screenshot.png)
 # Project 1 - Aloha Apparel
 
 ## Summary

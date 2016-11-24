@@ -564,6 +564,7 @@ header {
 /*header***********************************/
 body {
     padding-top: 78px;
+    width:100%;
 }
 header {
     height:auto;

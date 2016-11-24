@@ -1,6 +1,6 @@
 //SMOOTH SCROLL////////////////////////////////////////
 
-$(document).ready(function() {
+$(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -17,18 +17,18 @@ $(document).ready(function() {
 
 //SUBSCRIPTION POPUP///////////////////////////////////
 
-$(document).ready(function(event) {
+$(function(event) {
   $('.subscribeButton').on('click', function(event) {
-    event.preventDefault();
+
     var email = $('.email').val();
     var emailConfirm =  /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
 
-    if ((email).match(emailConfirm)){
-      alert('You shall not subscribe!(Please enter valid e-mail address)');
+    if (!(email).match(emailConfirm)){
+      alert('Thank you for subscribing');
     }
     else {
       event.preventDefault();
-      alert('Thank you for subscribing');
+      alert('You shall not subscribe!(Please enter valid e-mail address)');
     }
-});
+   })
 });

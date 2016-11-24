@@ -148,7 +148,7 @@ img {
 header {
     top:0;
     height:auto;
-    max-width:100%;
+    width:100%;
     display:-webkit-box;
     display:-ms-flexbox;
     display:flex;
@@ -562,6 +562,9 @@ header {
 @media only screen and (min-width: 600px) {
    
 /*header***********************************/
+body {
+    padding-top: 78px;
+}
 header {
     height:auto;
 }

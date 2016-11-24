@@ -131,11 +131,13 @@
 /*-----------------------------------END OF FONTS---------------------------------*/
 /*-----------------------mobile first-----------------*/
 
+/*header*/ 
 body {
     color:#2d2d2d;
     font-size:16px;
     line-height: 2;
-    padding-top: 91px;
+    padding-top: 111px;
+    max-width:100%;
 }
 
 img {
@@ -146,7 +148,7 @@ img {
 header {
     top:0;
     height:auto;
-    width:100%;
+    max-width:100%;
     display:-webkit-box;
     display:-ms-flexbox;
     display:flex;
@@ -444,7 +446,7 @@ header {
     font-size:1.1rem;
 }
 .email {
-    width: 23rem;
+    width: 20rem;
     height: 3.0rem;
     border-radius: 7rem;
     border: none;
@@ -550,6 +552,9 @@ header {
 
 .flickity-page-dots {
  bottom:-2px ! important;
+}
+.flickity-viewport {
+    margin-bottom:2rem;
 }
 
 /*600px Tablet Design****************************************/

@@ -150,10 +150,15 @@ section {
 /*----------------header----------------*/
 header {
     padding-bottom:.5rem;
-    height:9rem;
+    height:auto;
+    width:100%;
     display:-webkit-box;
     display:-ms-flexbox;
     display:flex;
+    position:fixed;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid gray;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -240,13 +245,16 @@ header {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    height: 29vh;
+    height: auto;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+}
+.aboutText p {
+    font-size:1.15rem;
 }
 .playFairItalic {
     font-size: 2.4rem;
@@ -404,7 +412,7 @@ hr {
     background: -webkit-linear-gradient(top, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),url(assets/images/wave-bkgd.jpg) no-repeat center bottom;
     background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),url(assets/images/wave-bkgd.jpg) no-repeat center bottom;
     color: white;
-    margin-bottom: 8px;
+    border-bottom:5px solid white;
 }
 
 .context {
@@ -452,11 +460,8 @@ hr {
 }
 .signUpSection p {
     font-family: 'ralewaymedium',sans-serif;
-    width: 25rem;
+    width: auto;
     text-align: center;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 1rem;
 }
 .email {
     width: 23rem;
@@ -577,12 +582,11 @@ hr {
    
 /*header***********************************/
 header {
-    height:5rem;
+    height:auto;
 }
 .navBar {
-    width: 17.3rem;
+    width: 50%;
     border: none;
-    padding-right: 4.2rem;
 }
 .navBar a {
     text-decoration: none;
@@ -598,6 +602,11 @@ header {
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
             order: 3;
+}
+/*about text*/
+.aboutText {
+  padding: 2rem 0;
+
 }
 /*categories***********************************/
 .mens {
@@ -632,6 +641,14 @@ header {
 /*product slider****************************/
 .carousel-cell {
     width:50%;
+}
+
+.signUpSection .context {
+    margin: 2rem 0 2rem;
+}
+.signUpSection p {
+    max-width: 40rem;
+    padding: 5px 5px 0 5px;
 }
 
 /*footer*********************************/

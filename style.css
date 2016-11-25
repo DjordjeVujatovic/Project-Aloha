@@ -382,11 +382,17 @@ header {
 /*----------------signUpSection----------------*/
 
 .signUpSection {
+    background: -webkit-linear-gradient( top, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100% ), url(assets/images/wave-bkgd.jpg) no-repeat center bottom;
     background: linear-gradient( to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100% ), url(assets/images/wave-bkgd.jpg) no-repeat center bottom;
     width:100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: auto;
     padding: 3.5rem 0;
     color:white;
@@ -458,8 +464,13 @@ input[type="submit"] {
     height: 18rem;
  }
 .footerContainer{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .colophon {
     color: white;
@@ -493,10 +504,16 @@ input[type="submit"] {
 .netWorkList{
     display: inherit;
     text-align: center;
-    justify-content: center;
-    justify-content: space-between;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 50%;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
 }
 .netWorkList li{
     display:inline-block;
@@ -617,9 +634,15 @@ header {
    padding: 2rem 0;
 }
 .footerContainer{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    flex-direction:row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:row;
+            flex-direction:row;
     width: 100%;
 
 }
@@ -629,7 +652,10 @@ header {
 
 }
 .netWorkList {
-    flex-direction:column;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+            flex-direction:column;
     margin:0;
     padding-right:1rem;
     width:20vh;

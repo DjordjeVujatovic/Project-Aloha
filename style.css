@@ -139,7 +139,7 @@ body {
     color:#2d2d2d;
     font-size:16px;
     line-height: 2;
-    padding-top: 111px;
+    padding-top: 108px;
     max-width:100%;
 }
 
@@ -238,40 +238,6 @@ header {
     font-size: 2.8rem;
     text-shadow: 2px 2px 6px #000;
 }
-
-/*----------------aboutSection----------------*/
-/*.aboutText {
-  text-align:center;
-}
-.aboutContainer {
-    padding: 0 2%;
-    margin: 0 auto;
-    width: 100%;
-}
-.aboutText p {
-    font-size:1.15rem;
-}
-.playFairItalic {
-    font-size: 2.4rem;
-    font-family: 'playfair_displayitalic', serif;
-    text-align: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-}
-.heavy {
-    font-style:normal;
-    font-weight:bold;
-    font-family:  "playfair_displayregular";
-}
-
-.aboutAloha {
-    font-size: 1.25rem;
-    font-family: 'ralewaylight',sans-serif;
-    width: 47rem;
-    text-align: center;
-    margin-bottom: 2rem;
-}*/
 .aboutText{
     padding: 2rem 0;
 }
@@ -524,27 +490,22 @@ input[type="submit"] {
     color:white;
 
 }
-
-.netWorkList {
-    font-size: 1.1rem;
-    font-family: 'ralewaymedium', sans-serif;
-    width: 9rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-top: 1.5rem;
-    align-self:center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+.netWorkList{
+    display: inherit;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 50%;
+    align-self: center;
 }
-
-.networkName a {
-    display:none;
-    font-family: "ralewaylight", sans-serif;
-}
-.networkName i {
+.netWorkList li{
     display:inline-block;
+}
+.netWorkList a{
+    color:white;
+}
+.network-name{
+    display: none;
 }
 
 /*----------------container/clearfix--------*/
@@ -574,7 +535,7 @@ input[type="submit"] {
    
 /*header***********************************/
 body {
-    padding-top: 78px;
+    padding-top: 65px;
     width:100%;
 }
 header {
@@ -673,18 +634,19 @@ header {
     padding-right:1rem;
     width:20vh;
 }
-.networkName a {
-    padding-left:1rem;
-    text-decoration:none;
-    color:white;
+.network-name{
     display: inline-block;
-    text-align:left;
+    width:100%;
+    padding:0;
 }
 }
 /*1240px Desktop Design****************************************/
 
 @media only screen and (min-width: 1240px) {
 /*header*/
+body{
+    padding-top:78px;
+}
 .logo {
     max-width: 10rem;
 }

@@ -520,6 +520,7 @@ display:inline-block;
 }
 .network-name{
     display: none;
+    font-family: 'raleway', sans-serif;
 }
 
 /*----------------container/clearfix--------*/

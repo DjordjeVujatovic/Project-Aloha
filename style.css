@@ -479,18 +479,11 @@ input[type="submit"] {
     background-color: #242424;
     color: white;
     height: 18rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-
-
  }
-
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+}
 .colophon {
     color: white;
     font-family: 'playfair_displayregular', serif;
@@ -499,6 +492,7 @@ input[type="submit"] {
         flex-basis: 100%;
     text-align: center;
     padding-top: 1rem;
+    line-height: 1.5;
 }
 .copyRight {
     padding-bottom: 1rem;
@@ -528,6 +522,7 @@ input[type="submit"] {
     display: -ms-flexbox;
     display: flex;
     margin-top: 1.5rem;
+    align-self:center;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -643,21 +638,25 @@ header {
 
 /*footer*********************************/
 .siteFooter {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+   padding: 2rem 0;
+}
+.footerContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row;
+    width: 100%;
+
 }
 .colophon {
     text-align:left;
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
+    padding-left:2rem;
+
 }
 .netWorkList {
-    -webkit-box-orient:vertical;
-    -webkit-box-direction:normal;
-        -ms-flex-direction:column;
-            flex-direction:column;
+    flex-direction:column;
     margin:0;
+    padding-right:1rem;
+    width:20vh;
 }
 .networkName a {
     padding-left:1rem;

@@ -432,6 +432,7 @@ input[type="email"] {
 
 }
 input[type="submit"] {
+    -webkit-appearance: none;
     background-color: #e2574c;
     color: white;
     cursor: pointer;

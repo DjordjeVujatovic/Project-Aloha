@@ -240,23 +240,13 @@ header {
 }
 
 /*----------------aboutSection----------------*/
-
-.aboutText {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    height: auto;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+/*.aboutText {
+  text-align:center;
 }
-.aboutTextContainer {
-   margin: 0 auto;
+.aboutContainer {
+    padding: 0 2%;
+    margin: 0 auto;
+    width: 100%;
 }
 .aboutText p {
     font-size:1.15rem;
@@ -281,6 +271,26 @@ header {
     width: 47rem;
     text-align: center;
     margin-bottom: 2rem;
+}*/
+.aboutText{
+    padding: 2rem 0;
+}
+.aboutContainer {
+    margin:0 auto;
+}
+.playFairItalic {
+    text-align: center;
+    font-family:'playfair_displayitalic',serif;
+    font-size:2.5rem;
+}
+.aboutAloha {
+    text-align: center;
+    font-size: 1.15rem;
+    font-family: 'ralewaylight', sans-serif;
+}
+.heavy {
+    font-style:normal;
+    font-weight:bold;
 }
 
 /*----------------shopCategories--------------------*/
@@ -419,6 +429,7 @@ header {
 .signUpForUpdates {
    font-size: 2.4rem;
    font-family: 'playfair_displayitalic',serif;
+   text-align: center;
 }
 .heavy {
     font-weight:bold;
@@ -591,7 +602,11 @@ header {
 /*about text*/
 .aboutText {
   padding: 2rem 0;
-
+}
+.aboutContainer {
+    padding: 0 2%;
+    margin: 0 auto;
+    max-width: 720px;
 }
 /*categories***********************************/
 .mens {
@@ -631,10 +646,10 @@ header {
 .signUpSection .context {
     margin: 2rem 0 2rem;
 }
-.signUpSection p {
-    max-width: 40rem;
-    padding: 5px 5px 0 5px;
+.signUpContainer{
+   max-width: 720px;
 }
+
 
 /*footer*********************************/
 .siteFooter {

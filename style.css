@@ -188,6 +188,9 @@ header {
     text-decoration: none;
     color: #e2574c;
 }
+.navBar a:hover{
+    color:darkred;
+}
 
 .logo {
     max-width: 8rem;

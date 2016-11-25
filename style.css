@@ -446,6 +446,9 @@ input[type="submit"] {
     border-radius: 3rem;
     border:none;
 }
+input:focus {
+    outline:none;
+}
 .subscribeButton {
     position: relative;
     left: 6.2rem;

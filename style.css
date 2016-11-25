@@ -457,6 +457,9 @@ input[type="submit"] {
     border: none;
 
 }
+#subscribe:hover{
+    background-color:darkred;
+}
 /*----------------siteFooter----------------*/
 
 .siteFooter {
@@ -500,6 +503,7 @@ input[type="submit"] {
 }
 .netWorkList{
     text-align: center;
+    color:white;
 }
 .netWorkList li{
 display:inline-block;
@@ -507,6 +511,9 @@ display:inline-block;
 }
 .netWorkList a{
     color:white;
+}
+.netWorkList a:hover{
+    color: #e2574c;
 }
 .network-name{
     display: none;
@@ -615,43 +622,31 @@ header {
    max-width: 720px;
 }
 
-
 /*footer*********************************/
-.siteFooter {
-   padding: 2rem 0;
+.siteFooter{
+    text-align: left;
 }
 .footerContainer{
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-orient:horizontal;
-    -webkit-box-direction:normal;
-        -ms-flex-direction:row;
-            flex-direction:row;
-    width: 100%;
-
+    justify-content: space-between;
 }
-.colophon {
-    text-align:left;
-    padding-left:2rem;
-
+.colophon{
+   text-align: left;
+   padding-left:1.5rem;
 }
-.netWorkList {
-    -webkit-box-orient:vertical;
-    -webkit-box-direction:normal;
-        -ms-flex-direction:column;
-            flex-direction:column;
-    margin:0;
-    padding-right:1rem;
-    width:20vh;
+.netWorkList{
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    text-align: left;
+    padding-top:1rem;
 }
-.network-name{
+.netWorkList i{
+    width: 1rem;
+    margin-right:.5rem;
+}
+.network-name {
     display: inline-block;
-    width:100%;
-    padding:0;
-}
 }
 /*1240px Desktop Design****************************************/
 

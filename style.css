@@ -476,6 +476,7 @@ header {
     height: auto;
     padding: 3.5rem 0;
     color:white;
+    border-bottom: 5px solid white;
 }
 .signUpForUpdates {
    font-size: 2.4rem;
@@ -524,8 +525,7 @@ header {
 .siteFooter {
     background-color: #242424;
     color: white;
-    padding:3rem 4rem 5rem 2rem;
-    height: 10rem;
+    height: 18rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -540,22 +540,22 @@ header {
 
 .colophon {
     color: white;
-    font-size: .9rem;
     font-family: 'playfair_displayregular', serif;
-    height: 11rem;
+    height: 12rem;
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     text-align: center;
+    padding-top: 1rem;
 }
 .copyRight {
     padding-bottom: 1rem;
-    font-size:1.2rem;
+    font-size:1rem;
 
 }
 
 .contact {
     padding-bottom: 1rem;
-    font-size:1.2rem;
+    font-size:1rem;
 }
 
 .address {

@@ -19,16 +19,14 @@ $(function() {
 //SUBSCRIPTION POPUP///////////////////////////////////
 
 $(function(event) {
-  $('.subscribeButton').on('click', function(event) {
+  $('.signUpSection').on('submit','form', function(event) {
+    event.preventDefault();
+    var $email = $('#yourEmail')
 
-    var email = $('.email').val();
-    var emailConfirm =  /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
-
-    if (!(email).match(emailConfirm)){
+    if ($email.val().length !== 0 ){
       alert('Thank you for subscribing');
     }
     else {
-      event.preventDefault();
       alert('You shall not subscribe!(Please enter valid e-mail address)');
     }
    })

@@ -502,21 +502,11 @@ input[type="submit"] {
 
 }
 .netWorkList{
-    display: inherit;
     text-align: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    width: 50%;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
 }
 .netWorkList li{
-    display:inline-block;
+display:inline-block;
+
 }
 .netWorkList a{
     color:white;

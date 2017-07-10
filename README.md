@@ -1,6 +1,8 @@
 ![Alt text](/Aloha-Screenshot.png)
 # Project 1 - Aloha Apparel
 
+https://djordjevujatovic.github.io/Project-Aloha/
+
 ## Summary
 
 For our first project at Red Academy we built the homepage of an e-commerce website, Aloha Apparel, using HTML5, CSS3, and jQuery. 
